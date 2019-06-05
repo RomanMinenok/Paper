@@ -61,8 +61,8 @@ afterEvaluate {
 }
 
 dependencies {
-    implementation 'com.esotericsoftware:kryo:4.0.1'
-    implementation 'de.javakaffee:kryo-serializers:0.40'
+    api 'com.esotericsoftware:kryo:4.0.1'
+    api 'de.javakaffee:kryo-serializers:0.40'
 
     androidTestImplementation 'com.orhanobut:hawk:1.14'
     androidTestImplementation 'com.android.support.test:runner:0.5'
