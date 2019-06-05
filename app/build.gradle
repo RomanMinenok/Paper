@@ -24,7 +24,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':paperdb')
-//    implementation 'io.paperdb:paperdb:2.6'
+//    implementation 'com.github.RomanMinenok:Paper:2.7.1'
     implementation 'com.android.support:appcompat-v7:28.0.0'
 
 
