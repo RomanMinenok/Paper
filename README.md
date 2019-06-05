@@ -5,6 +5,14 @@ Paper's aim is to provide a simple yet [fast](#benchmark-results) object storage
 
 ![Paper icon](/paper_icon.png)
 
+#### What's [new](/CHANGELOG.md) in 2.7
+
+Added built-in encryption:
+
+New API: 
+* `Paper.book(encrypted)` to enable encryption (can be enabled on each separate `Book` instance)
+
+
 #### What's [new](/CHANGELOG.md) in 2.6
 
 New API:
@@ -19,8 +27,16 @@ Thanks [@hiperioncn](https://github.com/hiperioncn) and [@cezar-carneiro](https:
 
 ### Add dependency
 ```groovy
-implementation 'io.paperdb:paperdb:2.6'
+repositories {
+    ...
+    maven { url "https://jitpack.io" }
+    ...
+}
+
+implementation 'com.github.RomanMinenok:Paper:2.7'
 ```
+### RxJava support
+[Doesn't work for this fork as for now as RxPaper points to original repo]
 
 RxJava wrapper for Paper is available as a separate lib [RxPaper2](https://github.com/pakoito/RxPaper2). Thanks [@pakoito](https://github.com/pakoito) for it!
 
