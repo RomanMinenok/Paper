@@ -33,12 +33,11 @@ repositories {
     ...
 }
 
-implementation 'com.github.RomanMinenok:Paper:2.7'
+implementation 'com.github.RomanMinenok:Paper:2.7.3'
 ```
 ### RxJava support
-[Doesn't work for this fork as for now as RxPaper points to original repo]
 
-RxJava wrapper for Paper is available as a separate lib [RxPaper2](https://github.com/pakoito/RxPaper2). Thanks [@pakoito](https://github.com/pakoito) for it!
+RxJava wrapper for Paper is available as a separate lib [RxPaper2](https://github.com/RomanMinenok/RxPaper2). Thanks [@pakoito](https://github.com/pakoito) for it!
 
 ### Initialize Paper
 Should be initialized once in `Application.onCreate()`:
